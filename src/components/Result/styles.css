@@ -1,25 +1,25 @@
 .result {
-    background-color: #b4b8f7;
-
-    padding: .5rem 2rem;
-    margin: 1rem;
+    background-color: #D9DBF1;
+    padding: .5rem 2rem;    
 }
 
 table {
     width: 100%;
-    border-collapse: collapse;
-    
+    border-collapse: collapse;   
+    background-color: #ACB0BD; 
 }
 
 table th, td{
     padding: .5rem;
-    border-bottom: 1px solid #eee;
+    border-bottom: 1px solid #416165;
     text-align: left;
     text-transform: uppercase;
 }
 
-table thead tr:first-child{
-    background-color: #eee;
+table thead tr:first-child, 
+table tbody tr:last-child{
+    background-color: #416165;
+    color:rgba(255,255,255);
     font-size: 1.2rem;
     font-weight: 700;
     
@@ -27,8 +27,4 @@ table thead tr:first-child{
 
 table thead td{
     text-align: center;
-}
-
-table tbody tr:last-child{
-    background-color: #eee;
 }

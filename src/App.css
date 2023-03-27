@@ -1,9 +1,16 @@
 .App{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column; 
+    align-items: center;
+
+    height: 100vh;
+    background-color: #eee;
+
+    gap: 1rem;
 }
 
 .container{
-    background-color: #eee;
-    max-width: 35rem;
+    max-width: 500px;
+    transition: all .3s;
 }
+

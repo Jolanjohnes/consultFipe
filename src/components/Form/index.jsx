@@ -89,8 +89,8 @@ export function Form({ vehicle, setVehicle }) {
 
     return (
 
-        <form onSubmit={(e) => { getVehicle(e) }}>
-            <div className='input'>
+        <form className='formWrapper' onSubmit={(e) => { getVehicle(e) }}>
+            <div className='formField'>
                 <label htmlFor="marca">Selecione sua marca</label>
                 <select name="" id="" onChange={(e) => handleSelectedMark(e)}>
                     <option value={0}>Selecione</option>
@@ -103,7 +103,7 @@ export function Form({ vehicle, setVehicle }) {
                     }
                 </select>
             </div>
-            <div className='input'>
+            <div className='formField'>
                 <label htmlFor="modelo">Selecione seu Modelo</label>
                 <select name="" id="" onChange={(e) => handleSelectedModel(e)}>
                     <option value={0}>Selecione</option>
@@ -116,7 +116,7 @@ export function Form({ vehicle, setVehicle }) {
                     }
                 </select>
             </div>
-            <div className='input'>
+            <div className='formField'>
                 <label htmlFor="ano">Selecione o ano do Veículo</label>
                 <select name="" id="" onChange={(e) => { handleSelectedYear(e) }}>
                     <option value="">Selecione</option>

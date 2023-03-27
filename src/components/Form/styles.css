@@ -1,42 +1,49 @@
-form{
-    padding: 1rem;
-    transition: all .3s;
-}
-
-.input{
-
+.formWrapper{
     display: flex;
     flex-direction: column;
-    padding-inline: 1.5rem;
-    margin-top: .5rem
+    gap: .5rem;
+    padding: 1rem;
+    background-color: #D9DBF1;
 }
 
-.input select{
-    padding: .5rem;
+.formField{
+    display: flex;
+    flex-direction: column;
+    color: #0B3948;
+    font-size: 1.1rem;
+}
+
+.formField select{
+   padding: .5rem;
+   color: #0B3948;
+   font-weight: 550;
+   border:none;
+   border-radius: .3rem;
+   outline-color: #0B3948;
+}
+
+
+.formField option{
+    font-weight: 500;
+}
+
+
+.formWrapper button{
     border: none;
-    outline-color: #b4b8f7;
-    border-color: #b4b8f7;
-}
+    border-radius: .3rem;
+    padding: .5rem;
 
-
-
-.btn{
-    width: 100%;
-    margin-top: 1.5rem;
-    text-align: center;
-}
-
-.btn button{
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    font-size: .8rem;
-    cursor: pointer;
-    font-weight: 700;
-    border: 2px solid #b4b8f7;
+    background-color: #0B3948;
+    color: rgba(255,255,255);
+ 
+    font-weight: 600;
     text-transform: uppercase;
-    transition: .3s;
+
+    cursor: pointer;
+
+    margin-top: 1rem;
 }
 
-.btn button:hover{
-    background-color: #b4b8f7;
-    color: #eee;
+.formWrapper button:hover{
+    transform: scale(1.1);
 }

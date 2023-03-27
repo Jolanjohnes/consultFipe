@@ -1,12 +1,8 @@
 import './styles.css'
 
-export function Result(data){
+export function Result(data) {
 
     const vehicle = data.data
-
-    
-
-
     return (
         <div className='result'>
             <table>
@@ -38,7 +34,7 @@ export function Result(data){
                         <th>Valor</th>
                         <td>{vehicle.Valor}</td>
                     </tr>
-                   
+
                 </tbody>
             </table>
         </div>
