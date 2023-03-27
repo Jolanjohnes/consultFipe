@@ -1,0 +1,9 @@
+.App{
+    display: flex;
+    flex-direction: column;    
+}
+
+.container{
+    background-color: #eee;
+    max-width: 35rem;
+}

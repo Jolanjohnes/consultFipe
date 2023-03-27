@@ -1,0 +1,42 @@
+form{
+    padding: 1rem;
+    transition: all .3s;
+}
+
+.input{
+
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1.5rem;
+    margin-top: .5rem
+}
+
+.input select{
+    padding: .5rem;
+    border: none;
+    outline-color: #b4b8f7;
+    border-color: #b4b8f7;
+}
+
+
+
+.btn{
+    width: 100%;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.btn button{
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    font-size: .8rem;
+    cursor: pointer;
+    font-weight: 700;
+    border: 2px solid #b4b8f7;
+    text-transform: uppercase;
+    transition: .3s;
+}
+
+.btn button:hover{
+    background-color: #b4b8f7;
+    color: #eee;
+}

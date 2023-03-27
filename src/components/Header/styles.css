@@ -1,0 +1,31 @@
+
+
+
+.headerCard{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1rem;
+    border: 1px solid #b4b8f7;
+
+    cursor: pointer;
+    transition: all .3s;
+}
+
+.headerCard h3{
+    font-size: 1.2rem;    
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.headerCard:hover{
+    background-color: #b4b8f7;
+    border-color: #eee;
+    color: #eee;
+}
+
+.headerCard svg{
+    font-size: 2rem;
+}
